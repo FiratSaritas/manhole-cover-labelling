@@ -3,8 +3,8 @@ import os
 from multiprocessing import Pool
 
 # Set Params
-CURR_DIR = '../data/images/'
-NEW_DIR = '../data/images_transformed/'
+CURR_DIR = 'data/images/'
+NEW_DIR = 'data/images_transformed/'
 START_IMAGE_DIR = 100000000
 DELTA_ID = 100
 N_PROCESSES = 7
