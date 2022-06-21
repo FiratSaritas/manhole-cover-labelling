@@ -1,0 +1,33 @@
+"csv_path": "./data/labels.csv"
+"image_folder": "./data/images_transformed/"
+"duplicated_label_factor": 0
+"type_labels": ["Gussbeton", "Vollguss", "Rost", "Andere"]
+"ground_truth_labels":
+  "Gussbeton": [
+                 "Pickelloch geschlossen",
+                 "Pickelloch belueftet",
+                 "Handgriff mitte",
+                 "Handgriff seitlich"
+  ]
+  "Vollguss": [
+                "Handgriff geschlossen",
+                "Handgriff geschlossen, verschraubt",
+                "Pickelloch geschlossen",
+                "Pickelloch belueftet",
+                "Aufklappbar"
+  ]
+  "Rost": [
+            "Einlauf rund",
+            "Strassenrost",
+            "Strassenrost gewoelbt"
+  ]
+  "Andere": [
+      "-"
+  ]
+"_properties":
+  "batch_size": 10
+  "test_case":
+    "is_test_case": false
+    "test_csv_path": "./data/test_labels.csv"
+    "test_image_folder": "./data/test_images/"
+
